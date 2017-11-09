@@ -1,0 +1,78 @@
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css);.autocomplete-div {
+  width: 100%;
+  min-height: 800px;
+  background: lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .autocomplete-div .hidden {
+    display: none; }
+  .autocomplete-div .autocomplete-input-wrapper {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+    background: white;
+    border: 0px;
+    width: 400px; }
+    .autocomplete-div .autocomplete-input-wrapper:hover {
+      border: 2px solid #993399; }
+    .autocomplete-div .autocomplete-input-wrapper .fa-search {
+      font-size: 20px;
+      color: lightgrey;
+      line-height: 20px;
+      padding: 0px;
+      margin: 0px;
+      margin-right: 20px; }
+    .autocomplete-div .autocomplete-input-wrapper .fa-sort-down {
+      font-size: 20px;
+      color: lightgrey;
+      line-height: 20px;
+      padding: 0px;
+      margin: 0px; }
+      .autocomplete-div .autocomplete-input-wrapper .fa-sort-down:hover {
+        cursor: pointer; }
+    .autocomplete-div .autocomplete-input-wrapper .autocomplete-input {
+      width: 300px;
+      font-size: 20px;
+      border: 0;
+      color: grey; }
+      .autocomplete-div .autocomplete-input-wrapper .autocomplete-input:focus {
+        outline: none; }
+  .autocomplete-div .dropdown-list {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6); }
+    .autocomplete-div .dropdown-list ul {
+      margin: 0px;
+      padding: 0px; }
+  .autocomplete-div .dropdown-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    margin: 0px;
+    padding: 14px 20px;
+    background: white;
+    color: grey; }
+    .autocomplete-div .dropdown-list-item:hover {
+      background: #ccffff; }
+    .autocomplete-div .dropdown-list-item img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      margin-right: 60px; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif !important; }
+  body #root {
+    padding: 0px;
+    margin: 0px; }
